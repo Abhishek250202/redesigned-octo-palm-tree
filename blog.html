@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="navigation">
+      <ul>
+        <li class="list">
+          <b></b>
+          <b></b>
+          <a href="/index.html">
+            <span class="icon">
+              <ion-icon name="home-outline"></ion-icon>
+            </span>
+            <span class="title">Home</span>
+          </a>
+        </li>
+        <li class="list">
+          <b></b>
+          <b></b>
+          <a href="/intro.html">
+            <span class="icon">
+              <ion-icon name="person-outline"></ion-icon>
+            </span>
+            <span class="title">Profile</span>
+          </a>
+        </li>
+        <li class="list">
+          <b></b>
+          <b></b>
+          <a href="/services.html">
+            <span class="icon">
+              <ion-icon name="ribbon-outline"></ion-icon>
+            </span>
+            <span class="title">Certificates</span>
+          </a>
+        </li>
+        <li class="list active">
+          <b></b>
+          <b></b>
+          <a href="#">
+            <span class="icon">
+              <ion-icon name="library-outline"></ion-icon>
+            </span>
+            <span class="title">Projects</span>
+          </a>
+        </li>
+        <li class="list">
+          <b></b>
+          <b></b>
+          <a href="/contact.html">
+            <span class="icon">
+              <ion-icon name="call-outline"></ion-icon>
+            </span>
+            <span class="title">Contact</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="main blog">
+
+      <h1>Projects</h1>
+      <div class="blogcontainer">
+        <div class="blogitem">
+          <h2>Handtracking Module in Python</h2>
+          <p>This is a tool that tracks your hands while moving. The hand is mapped to 21 separate points, which can be
+            used for further analysis</p>
+          <button class="btn-sm hand">Read More</button>
+        </div>
+      </div>
+      <div class="blogcontainer">
+        <div class="blogitem">
+          <h2>NoiseAdder GUI</h2>
+          <p>This is a user interface that I built to test out different models and to see what they would look like on
+            a real image. This tool allows the user to upload images, select noise models, and save the modified images.
+          </p>
+          <button class="btn-sm">Read More</button>
+        </div>
+      </div>
+      <div class="blogcontainer">
+        <div class="blogitem">
+          <h2>This Website</h2>
+          <p>I made this website using the skills I learn during my internship at aiRender. The plan was to make a comprehensive information center for reference the people who view the college application for my masters.</p>
+          <button class="btn-sm">Read More</button>
+        </div>
+      </div>
+
+      <div class="blogcontainer">
+        <div class="blogitem">
+          <h2>Stone-Paper-Scissors in JavaScript</h2>
+          <p>A very simple rock paper scissors game. Click here to play.</p>
+          <button class="btn-sm rps">Play</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="toggle">
+    <ion-icon name="menu-outline" class="open"></ion-icon>
+    <ion-icon name="close-outline" class="close"></ion-icon>
+  </div>
+  <script src="/scripts/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    let menuToggle = document.querySelector('.toggle');
+    let navigation = document.querySelector('.navigation');
+    menuToggle.onclick = function () {
+      menuToggle.classList.toggle('active');
+      navigation.classList.toggle('active');
+    }
+
+
+
+    //add active class in selected list item
+    // let list = document.querySelectorAll('.list');
+    // for (let i = 0; i, list.length; i++) {
+    //   list[i].onclick = function () {
+    //     let j = 0;
+    //     while (j < list.length) {
+    //       list[j++].className = 'list';
+    //     }
+    //     list[i].className = 'list active'
+    //   }
+    // }
+  </script>
+  <script>
+    document.querySelector('.rps').addEventListener("click", () => {
+      // console.log("rps clicked")
+      
+      // let playGame = confirm("Shall we play rock paper scissors?");
+      // if (playGame) {
+      //   //play
+      //   let playerChoice = prompt("Plese enter rock, paper or scissors.");
+      //   if (playerChoice) {
+      //     let playerOne = playerChoice.trim().toLowerCase();
+      //     // console.log(playerOne)
+      //     if (playerOne === "rock" || playerOne === "paper" || playerOne === "scissors") {
+      //       let computerChoice = Math.floor(Math.random() * 3 + 1);
+      //       // console.log(computerChoice)
+      //       let choices = ["rock", "paper", "scissors"];
+      //       let computer = choices[computerChoice];
+      //       console.log(computer)
+      //       //game logic...
+      //       if ((playerOne === "paper" && computer === "rock") || (playerOne === "rock" && computer === "scissors") || (playerOne === "scissors" && computer === "paper")) {
+      //         alert("you:" + playerOne + "\n computer:", computer)
+      //         alert("You Win!!!")
+      //       }
+      //       else {
+
+      //         alert("You : " + playerOne + "\nComputer:", computer)
+      //         alert("You Lose!!!")
+      //       }
+
+
+      //       let playAgain = confirm("Play Again?");
+      //       playAgain ? location.reload() : alert("sad");
+      //     }
+      //     else {
+      //       alert("Enter rock, paper or scissors");
+      //     }
+      //   }
+      //   else {
+      //     alert("Guess you changed your mind.")
+      //   }
+      // }
+      // else {
+      //   alert("Ok, maybe mext time then!");
+      // }
+    })
+  </script>
+
+  
+</body>
+
+</html>
