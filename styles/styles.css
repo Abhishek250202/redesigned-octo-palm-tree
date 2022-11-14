@@ -20,8 +20,7 @@
     /* bottom: 20px; */
     width: 70px;
     background:  #242682ba;
-    height: 60vh;
-    
+    height: 60vh; 
     /* z-index: 1; */
     border-radius: 10px;
     /* border-left: 2px solid white; */
@@ -30,9 +29,6 @@
     overflow-x: hidden;
     padding-top: 35px;
     /* margin: auto; */
-    
-    
-    
 }
 
 .ed_subhead{
@@ -236,10 +232,12 @@
 
 }
 body{
-    background-image: url('../bg.png');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../bg.png');
+    /* filter: brightness(50%); */
     background-attachment: fixed;
     background-repeat: repeat-y;
     opacity: 100;
+    
 }
 .container{
     display: flex;
@@ -597,7 +595,6 @@ form{
     background-color:  #242682ba;
     font-family: 'Source Code Pro', monospace;
     position: relative;
-    
     /* display: inline-block; */
 }
 
