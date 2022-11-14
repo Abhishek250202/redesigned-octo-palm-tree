@@ -288,7 +288,7 @@ body{
     text-align: center;
     font-family: 'Source Code Pro', monospace;
     margin-top: 40px;
-    text-shadow: 0 0 6px white;
+    /* text-shadow: 0 0 6px white; */
 }
 .ed_about_title{
     text-align: center;
@@ -573,7 +573,7 @@ form{
 }
 #certificatesh1{
     font-size: 6vh;
-    text-shadow: 0 0 5px white;
+    /* text-shadow: 0 0 5px white; */
     text-align: center;
     color: white;
     font-family: 'Source Code Pro', monospace;
@@ -658,7 +658,7 @@ form{
     margin-bottom: 60px;
     color: white;
     font-size: 6vh;
-    text-shadow: 0 0 5px white;
+    /* text-shadow: 0 0 5px white; */
     font-family: 'Source Code Pro', monospace;
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'Roboto Slab', serif; */
@@ -666,7 +666,7 @@ form{
 .contactform h1{
     font-family: 'Source Code Pro', monospace;
         font-size: 5.5vh;
-        text-shadow: 0 0 6px white;
+        /* text-shadow: 0 0 6px white; */
         margin: 40px auto;
 }
 
@@ -677,10 +677,10 @@ form{
         border: 2px solid white;
         display: flex;
         flex-direction: row;
-        height: 5vh;
+        height: 7vh;
         width: 90%;
         /* padding: 2vh; */
-        margin: 2vh;
+        margin: 2vh auto;
         background: #242682ba;
         border-radius: 20px;
         font-family: 'Source Code Pro', monospace;
@@ -698,7 +698,7 @@ form{
    
     .navitem ion-icon{
         /* width: 10vh; */
-        font-size: 3vh;
+        font-size: 5vh;
     }
     /* .navitem:hover{
         background-color: red;
@@ -863,7 +863,7 @@ form{
     .contactform h1{
         font-family: 'Source Code Pro', monospace;
         font-size: 4vh;
-        text-shadow: 0 0 6px white;
+        /* text-shadow: 0 0 6px white; */
         margin: 4vh auto;
     }
     .mb-3{
@@ -887,7 +887,7 @@ form{
         margin-top: 2.5vh;
         margin-bottom: 4vh;
         /* margin: 4vh auto; */
-        text-shadow: 0 0 6px white;
+        /* text-shadow: 0 0 6px white; */
     }
     .blogcontainer{
         border: 2px solid white;
@@ -906,7 +906,7 @@ form{
     }
     #certificatesh1{
         font-size: 4vh;
-        text-shadow: 0 0 6px white;
+        /* text-shadow: 0 0 6px white; */
         margin-top: 4vh;
         margin-bottom: 0;
     }
