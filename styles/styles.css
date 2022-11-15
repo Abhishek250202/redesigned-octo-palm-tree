@@ -802,7 +802,7 @@ form{
         background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url('../bg.png');
         background-attachment: fixed;
         /* background-repeat: repeat-y; */
-        background-size: cover;
+/*         background-size: cover; */
         opacity: 100;
     }
     hr{
